@@ -1,4 +1,4 @@
-module github.com/iluxav/ntunl
+module github.com/iluxav/etunl-cli
 
 go 1.24.5
 

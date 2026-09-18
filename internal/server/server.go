@@ -12,8 +12,8 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"github.com/iluxav/ntunl/internal/config"
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/config"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 )
 
 type tcpListener struct {

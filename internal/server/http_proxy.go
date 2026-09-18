@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 )
 
 func (s *Server) handleHTTPProxy(w http.ResponseWriter, r *http.Request) {

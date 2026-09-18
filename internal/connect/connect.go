@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 	"github.com/gorilla/websocket"
 )
 

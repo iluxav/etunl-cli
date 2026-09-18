@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 )
 
 const (

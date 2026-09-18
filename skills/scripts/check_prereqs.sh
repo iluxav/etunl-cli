@@ -33,7 +33,7 @@ section "Binary"
 
 if ! command -v etunl >/dev/null 2>&1; then
   fail "etunl not on PATH"
-  say  "Install: curl -fsSL https://raw.githubusercontent.com/iluxav/ntunl/main/install.sh | sh"
+  say  "Install: curl -fsSL https://raw.githubusercontent.com/iluxav/etunl-cli/main/install.sh | sh"
   exit 1
 fi
 pass "etunl found at $(command -v etunl)"

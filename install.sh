@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-REPO="iluxav/ntunl"
+REPO="iluxav/etunl-cli"
 INSTALL_DIR="/usr/local/bin"
 BINARY="etunl"
 

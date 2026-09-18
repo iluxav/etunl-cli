@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/iluxav/ntunl/internal/client"
-	"github.com/iluxav/ntunl/internal/config"
-	"github.com/iluxav/ntunl/internal/connect"
-	"github.com/iluxav/ntunl/internal/server"
+	"github.com/iluxav/etunl-cli/internal/client"
+	"github.com/iluxav/etunl-cli/internal/config"
+	"github.com/iluxav/etunl-cli/internal/connect"
+	"github.com/iluxav/etunl-cli/internal/server"
 	"github.com/spf13/cobra"
 )
 

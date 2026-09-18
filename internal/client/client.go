@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/iluxav/ntunl/internal/config"
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/config"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 	"github.com/gorilla/websocket"
 )
 

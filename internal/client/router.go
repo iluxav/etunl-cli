@@ -9,8 +9,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/iluxav/ntunl/internal/config"
-	"github.com/iluxav/ntunl/internal/tunnel"
+	"github.com/iluxav/etunl-cli/internal/config"
+	"github.com/iluxav/etunl-cli/internal/tunnel"
 )
 
 func (c *Client) handleHTTPStream(s *tunnel.Stream, route *config.Route) {

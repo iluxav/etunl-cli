@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/iluxav/ntunl/internal/config"
+	"github.com/iluxav/etunl-cli/internal/config"
 )
 
 //go:embed web/index.html

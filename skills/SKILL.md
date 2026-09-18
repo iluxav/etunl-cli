@@ -17,7 +17,7 @@ files:
 A Go reverse proxy + WebSocket tunnel that publishes local services (HTTP and
 TCP) under subdomains of a public server. Each machine that runs the client
 opens one persistent WebSocket to the server and multiplexes all of its routes
-over it. Source: https://github.com/iluxav/ntunl
+over it. Source: https://github.com/iluxav/etunl-cli
 
 The CLI binary is `etunl`. This file is the entry point — for deep dives, jump
 into the reference files below.
@@ -56,7 +56,7 @@ If `etunl` is missing, point the user at the install one-liner — **do not
 install it yourself without explicit user approval**:
 
 ```
-curl -fsSL https://raw.githubusercontent.com/iluxav/ntunl/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/iluxav/etunl-cli/main/install.sh | sh
 ```
 
 For a fuller pre-flight (config validity, systemd unit state, dashboard

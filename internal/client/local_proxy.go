@@ -11,7 +11,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/iluxav/ntunl/internal/config"
+	"github.com/iluxav/etunl-cli/internal/config"
 )
 
 type LocalProxy struct {
